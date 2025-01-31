@@ -1,0 +1,6 @@
+﻿{
+  "games": [
+    { "name": "Chess", "image": "https://example.com/chess.jpg" },
+    { "name": "Tic-Tac-Toe", "image": "https://example.com/tictactoe.jpg" }
+  ]
+}

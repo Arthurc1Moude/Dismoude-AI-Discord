@@ -1,0 +1,45 @@
+﻿body {
+    background-color: #121212;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+
+.game-container {
+    display: flex;
+    gap: 20px;
+}
+
+
+.card {
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: #1e1e1e;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+
+.card img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+
+
+.card .title {
+    display: none;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.card:hover .title {
+    display: block;
+}
